@@ -57,3 +57,6 @@ src/testTestingRootWkspc/coverageWorkspace/.coverage
 TrainingArchiveBadData/
 PredictionArchivedBadData/
 .ipynb_checkpoints
+Training_Raw_files_validated/
+Training_Logs/
+
