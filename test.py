@@ -1,8 +1,8 @@
 import os
-# from prediction.validation_insertion import pred_validation
+from prediction.validation_insertion import pred_validation
 from training.train_model import trainModel
 from training.validation_insertion import train_validation
-# from prediction.predict_model import prediction
+from prediction.predict_model import prediction
 
 os.putenv('LANG', 'en_US.UTF-8')
 os.putenv('LC_ALL', 'en_US.UTF-8')

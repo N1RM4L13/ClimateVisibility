@@ -58,5 +58,7 @@ TrainingArchiveBadData/
 PredictionArchivedBadData/
 .ipynb_checkpoints
 Training_Raw_files_validated/
+Prediction_Raw_Files_validated/
 Training_Logs/
+prediction_Logs/
 
