@@ -1,3 +1,5 @@
+# Dataset Description
+
 The following files are part of the NOAA Weather Data - JFK Airport hosted on IBM Developer Data Asset eXchange.
 
 Homepage: https://developer.ibm.com/exchanges/data/all/jfk-weather-data/
@@ -17,4 +19,33 @@ If you would like to download data in a similar format for a different time rang
 5. From the cart checkout page, select the "LCD CSV" data format, and select the appropriate range of dates for which you would like the data for. 
 6. Enter an email address to which you would like NOAA to send you a download link for the data, then click "SUBMIT ORDER". Note, during times of high volume, NOAA may delay sending you a link to your dataset for up to several hours. 
 7. For any questions pertaining to the LCD tool, visit NOAA's FAQ page here: ncdc.noaa.gov/cdo-web/faq 
+
+## Key Features for Visibility Prediction Model
+1. **VISIBILITY**: Distance from which an object can be seen (target variable).  
+2. **DRYBULBTEMPF**: Dry bulb temperature (degrees Fahrenheit) - Standard reported temperature.  
+3. **WETBULBTEMPF**: Wet bulb temperature (degrees Fahrenheit).  
+4. **DewPointTempF**: Dew point temperature (degrees Fahrenheit).  
+5. **RelativeHumidity**: Relative humidity (percent).  
+6. **WindSpeed**: Wind speed (miles per hour).  
+7. **WindDirection**: Wind direction from true north (compass directions).  
+8. **StationPressure**: Atmospheric pressure (inches of Mercury, 'in Hg').  
+9. **SeaLevelPressure**: Sea level pressure (in Hg).  
+10. **Precip_Total**: Total precipitation in the past hour (in inches).  
+
+---
+
+## Additional Requirements for Training Files
+
+Apart from the training data files, a **schema file** is required from the client. The schema file should include the following information:
+
+- **File Details**:
+  - Name of the files.
+  - Length of the date value in the file name.
+  - Length of the time value in the file name.
+- **Data Structure**:
+  - Number of columns in the dataset.
+  - Names of the columns.
+  - Datatypes of each column.
+
+
 
